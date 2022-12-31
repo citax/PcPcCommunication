@@ -6,7 +6,7 @@ nickname = input("Choose your nickname: ")
 
 # Connecting To Server
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('192.168.1.17', 55555))
+client.connect(('10.12.150.195', 55555))
 
 # Listening to Server and Sending Nickname
 def receive():

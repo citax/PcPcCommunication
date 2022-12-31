@@ -2,7 +2,7 @@ import socket
 import threading
 
 # Connection Data
-host = '192.168.1.17'
+host = '10.12.150.195'
 port = 55555
 
 # Starting Server
